@@ -16,7 +16,7 @@
    <project path="vendor/xiaomi/rosemary" name="CodeChas3r1/vendor_xiaomi_rosemary" remote="hub" revision="pixelos-13" clone-depth="1"/>
    
    <!-- MtkFMRadio -->
-   <project path="packages/apps/MtkFMRadio" name="CodeChas3r1/android_packages_apps_MtkFMRadio" remote="hub" revision="lineage-20" clone-depth="1"/>
+   <project path="packages/apps/MtkFMRadio" name="CodeChas3r1/android_packages_apps_MtkFMRadio-1" remote="hub" revision="lineage-20" clone-depth="1"/>
    
    <!-- Extras -->
    <project path="vendor/mediatek/opensource" name="CodeChas3r1/vendor_mediatek-opensource" remote="hub" revision="thirteen" clone-depth="1"/>
