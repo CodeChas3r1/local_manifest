@@ -8,6 +8,9 @@
    <!-- ArrowOS-->
    <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
    
+   <!-- GcamGo -->
+   <project path="vendor/gcgop" name="ProjectKasumi/vendor_gcgop" remote="hub" revision="kasumi-v2" clone-depth="1"/>
+   
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="CodeChas3r1/device_xiaomi_rosemary" remote="hub" revision="pixelos" clone-depth="1"/>
    
