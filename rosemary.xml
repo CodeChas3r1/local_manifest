@@ -6,7 +6,7 @@
    <remote name="hub" fetch="https://github.com"/>
    
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="CodeChas3r1/device_xiaomi_rosemary" remote="hub" revision="derp13" clone-depth="1"/>
+   <project path="device/xiaomi/rosemary" name="CodeChas3r1/device_xiaomi_rosemary" remote="hub" revision="derpfest-13" clone-depth="1"/>
    
    <project path="kernel/xiaomi/mt6785" name="CodeChas3r1/kernel_xiaomi_mt6785" remote="hub" revision="lineage-20" clone-depth="1"/>
    
