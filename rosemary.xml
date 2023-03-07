@@ -5,8 +5,8 @@
    <remote name="lab" fetch="https://gitlab.com"/>
    <remote name="hub" fetch="https://github.com"/>
    
-   <!-- ArrowOS 
-   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" /> -->
+   <!-- ArrowOS -->
+   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
    
    <!-- GcamGo -->
    <project path="vendor/gcgop" name="ProjectKasumi/vendor_gcgop" remote="hub" revision="kasumi-v2" clone-depth="1"/>
@@ -28,8 +28,8 @@
    
    <project path="device/mediatek/common" name="CodeChas3r1/device_mediatek_common" remote="hub" revision="thirteen" clone-depth="1"/>
    
-   <!-- SePolicy 
-   <project path="device/mediatek/sepolicy_vndr" name="CodeChas3r1/device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-20"/> -->
+   <!-- SePolicy -->
+   <project path="device/mediatek/sepolicy_vndr" name="CodeChas3r1/device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-20"/>
    
    <!-- Hardware -->
    <project path="hardware/mediatek" name="CodeChas3r1/android_hardware_mediatek" remote="hub" revision="lineage-20"/>
