@@ -5,8 +5,8 @@
    <remote name="lab" fetch="https://gitlab.com"/>
    <remote name="hub" fetch="https://github.com"/>
    
-   <!-- ArrowOS-->
-   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
+   <!-- ArrowOS 
+   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" /> -->
    
    <!-- GcamGo -->
    <project path="vendor/gcgop" name="ProjectKasumi/vendor_gcgop" remote="hub" revision="kasumi-v2" clone-depth="1"/>
