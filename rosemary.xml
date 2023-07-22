@@ -4,18 +4,15 @@
    <!-- Remote -->
    <remote name="lab" fetch="https://gitlab.com"/>
    <remote name="hub" fetch="https://github.com"/>
-
-   <!-- Remove & Add crDroidAndroid -->
-   <remove-project name="crdroidandroid/android_frameworks_base" />
-   <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
-   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
-   <project path="frameworks/base" name="CodeChas3r1/android_frameworks_base" remote="hub" revision="13.0" clone-depth="1"/>
-   <project path="packages/apps/Launcher3" name="CodeChas3r1/android_packages_apps_Launcher3" remote="hub" revision="13.0" clone-depth="1"/>
-   <project path="packages/apps/Settings" name="CodeChas3r1/android_packages_apps_Settings" remote="hub" revision="13.0" clone-depth="1"/>
-
+   
+   <remove-project name="android_frameworks_base" />
+   <remove-project name="android_packages_apps_Settings" />
+   <project path="frameworks/base" name="CodeChas3r1/awaken_frameworks_base" remote="hub" revision="triton" clone-depth="1"/>
+   <project path="packages/apps/Settings" name="CodeChas3r1/awaken_packages_apps_Settings" remote="hub" revision="triton" clone-depth="1"/>
+   
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="CodeChas3r1/android_device_xiaomi_rosemary" remote="hub" revision="13.0" clone-depth="1"/>
-   <project path="kernel/xiaomi/mt6785" name="CodeChas3r1/android_kernel_xiaomi_mt6785" remote="hub" revision="13.0" clone-depth="1"/>
+   <project path="device/xiaomi/rosemary" name="CodeChas3r1/android_device_xiaomi_rosemary" remote="hub" revision="triton" clone-depth="1"/>
+   <project path="kernel/xiaomi/mt6785" name="CodeChas3r1/android_kernel_xiaomi_mt6785" remote="hub" revision="lineage-20" clone-depth="1"/>
    <project path="vendor/xiaomi/rosemary" name="CodeChas3r1/android_vendor_xiaomi_rosemary" remote="hub" revision="13.0" clone-depth="1"/>
    
    <!-- Extras -->
@@ -29,8 +26,8 @@
    <!-- Hardware -->
    <project path="hardware/mediatek" name="CodeChas3r1/android_hardware_mediatek" remote="hub" revision="13" clone-depth="1"/>
    <project path="hardware/xiaomi" name="CodeChas3r1/android_hardware_xiaomi" remote="hub" revision="13" clone-depth="1"/>
-
+   
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
-   
+
 </manifest>
