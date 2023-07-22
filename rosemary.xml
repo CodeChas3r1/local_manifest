@@ -5,17 +5,16 @@
    <remote name="lab" fetch="https://gitlab.com"/>
    <remote name="hub" fetch="https://github.com"/>
 
-   <!-- Remove & Add crDroidAndroid -->
-   <remove-project name="crdroidandroid/android_frameworks_base" />
-   <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
-   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
-   <project path="frameworks/base" name="CodeChas3r1/android_frameworks_base" remote="hub" revision="13.0" clone-depth="1"/>
-   <project path="packages/apps/Launcher3" name="CodeChas3r1/android_packages_apps_Launcher3" remote="hub" revision="13.0" clone-depth="1"/>
-   <project path="packages/apps/Settings" name="CodeChas3r1/android_packages_apps_Settings" remote="hub" revision="13.0" clone-depth="1"/>
+   <!-- AlphaDroid -->
+   <remove-project name="lineageos/android_hardware_xiaomi" />
+   <remove-project name="packages_apps_Launcher3" />
+   <remove-project name="packages_apps_Settings" />
+   <project path="packages/apps/Launcher3" name="CodeChas3r1/alpha_packages_apps_Launcher3" remote="hub" revision="alpha-13" clone-depth="1"/>
+   <project path="packages/apps/Settings" name="CodeChas3r1/alpha_packages_apps_Settings" remote="hub" revision="alpha-13" clone-depth="1"/>
 
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="CodeChas3r1/android_device_xiaomi_rosemary" remote="hub" revision="13.0" clone-depth="1"/>
-   <project path="kernel/xiaomi/mt6785" name="CodeChas3r1/android_kernel_xiaomi_mt6785" remote="hub" revision="13.0" clone-depth="1"/>
+   <project path="device/xiaomi/rosemary" name="CodeChas3r1/android_device_xiaomi_rosemary" remote="hub" revision="alpha-13-vanilla" clone-depth="1"/>
+   <project path="kernel/xiaomi/mt6785" name="CodeChas3r1/android_kernel_xiaomi_mt6785" remote="hub" revision="alpha-13" clone-depth="1"/>
    <project path="vendor/xiaomi/rosemary" name="CodeChas3r1/android_vendor_xiaomi_rosemary" remote="hub" revision="13.0" clone-depth="1"/>
    
    <!-- Extras -->
@@ -24,12 +23,12 @@
    <project path="device/mediatek/common" name="CodeChas3r1/android_device_mediatek_common" remote="hub" revision="13" clone-depth="1"/>
    
    <!-- SePolicy -->
-   <project path="device/mediatek/sepolicy_vndr" name="CodeChas3r1/android_device_mediatek_sepolicy_vndr" remote="hub" revision="13" clone-depth="1"/>
+   <project path="device/mediatek/sepolicy_vndr" name="CodeChas3r1/device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-20" clone-depth="1"/>
    
    <!-- Hardware -->
-   <project path="hardware/mediatek" name="CodeChas3r1/android_hardware_mediatek" remote="hub" revision="13" clone-depth="1"/>
-   <project path="hardware/xiaomi" name="CodeChas3r1/android_hardware_xiaomi" remote="hub" revision="13" clone-depth="1"/>
-
+   <project path="hardware/mediatek" name="CodeChas3r1/android_hardware_mediatek" remote="hub" revision="lineage-20" clone-depth="1"/>
+   <project path="hardware/xiaomi" name="CodeChas3r1/android_hardware_xiaomi" remote="hub" revision="lineage-20" clone-depth="1"/>
+   
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
    
