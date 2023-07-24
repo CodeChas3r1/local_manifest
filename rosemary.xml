@@ -23,7 +23,7 @@
    <project path="device/mediatek/common" name="CodeChas3r1/android_device_mediatek_common" remote="hub" revision="13" clone-depth="1"/>
    
    <!-- SePolicy -->
-   <project path="device/mediatek/sepolicy_vndr" name="CodeChas3r1/android_device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-20" clone-depth="1"/>
+   <project path="device/mediatek/sepolicy_vndr" name="CodeChas3r1/android_device_mediatek_sepolicy_vndr" remote="hub" revision="13" clone-depth="1"/>
    
    <!-- Hardware -->
    <project path="hardware/mediatek" name="CodeChas3r1/android_hardware_mediatek" remote="hub" revision="13" clone-depth="1"/>
