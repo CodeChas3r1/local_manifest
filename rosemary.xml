@@ -4,9 +4,12 @@
    <!-- Remote -->
    <remote name="lab" fetch="https://gitlab.com"/>
    <remote name="hub" fetch="https://github.com"/>
+   
    <!-- risingOS -->
    <!--<remove-project name="risingtechoss/android_packages_apps_Launcher3" />
-   <project path="packages/apps/Launcher3" name="CodeChas3r1/rising_packages_apps_Launcher3" remote="hub" revision="thirteen" clone-depth="1"/>-->
+   <remove-project name="risingtechoss/android_packages_modules_wifi" />
+   <project path="packages/apps/Launcher3" name="CodeChas3r1/rising_packages_apps_Launcher3" remote="hub" revision="thirteen" clone-depth="1"/>
+   <project path="packages/modules/wifi" name="CodeChas3r1/android_packages_modules_wifi" remote="hub" revision="thirteen" clone-depth="1"/>-->
    
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="CodeChas3r1/android_device_xiaomi_rosemary" remote="hub" revision="13" clone-depth="1"/>
