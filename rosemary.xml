@@ -9,7 +9,7 @@
    <remove-project name="android_hardware_xiaomi" />
 
    <!-- Trees -->
-   <!--<project path="device/xiaomi/rosemary" name="CodeChas3r1/android_device_xiaomi_rosemary" remote="hub" revision="droidx-13" clone-depth="1"/>-->
+   <project path="device/xiaomi/rosemary" name="CodeChas3r1/android_device_xiaomi_rosemary" remote="hub" revision="droidx-13" clone-depth="1"/>
    <project path="kernel/xiaomi/mt6785" name="CodeChas3r1/android_kernel_xiaomi_mt6785" remote="hub" revision="lineage-20" clone-depth="1"/>
    <project path="vendor/xiaomi/rosemary" name="CodeChas3r1/android_vendor_xiaomi_rosemary" remote="hub" revision="13.0" clone-depth="1"/>
    
