@@ -7,13 +7,13 @@
    <remote name="builds" fetch="https://github.com/chasbuilds"/>
    
    <!-- risingOS -->
-   <remove-project name="RisingTechOSS/android_packages_apps_Launcher3"/>
+   <!--<remove-project name="RisingTechOSS/android_packages_apps_Launcher3"/>
    <remove-project name="android_packages_modules_wifi"/>
    <project path="packages/apps/Launcher3" name="rising_packages_apps_Launcher3" remote="chas" revision="thirteen" clone-depth="1"/>
-   <project path="packages/modules/wifi" name="android_packages_modules_wifi" remote="chas" revision="thirteen" clone-depth="1"/>
+   <project path="packages/modules/wifi" name="android_packages_modules_wifi" remote="chas" revision="thirteen" clone-depth="1"/>-->
    
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="13" clone-depth="1"/>
+   <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="rising-vanilla" clone-depth="1"/>
    <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="builds" revision="lineage-20" clone-depth="1"/>
    <project path="vendor/xiaomi/rosemary" name="android_vendor_xiaomi_rosemary" remote="builds" revision="lineage-20" clone-depth="1"/>
    
