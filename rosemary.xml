@@ -3,14 +3,15 @@
 <manifest>
    <!-- Remote -->
    <remote name="lab" fetch="https://gitlab.com"/>
+   <remote name="hub" fetch="https://github.com"/>
    <remote name="chas" fetch="https://github.com/CodeChas3r1"/>
    <remote name="builds" fetch="https://github.com/chasbuilds"/>
 
    <!-- DerpFest -->
-   <remove-project name="packages_apps_Settings" />
+   <!--<remove-project name="packages_apps_Settings" />
    <remove-project name="frameworks_base" />
    <project path="packages/apps/Settings" name="derp_packages_apps_Settings" remote="chas" revision="13" clone-depth="1"/>
-   <project path="frameworks/base" name="derp_frameworks_base" remote="chas" revision="13" clone-depth="1"/>
+   <project path="frameworks/base" name="derp_frameworks_base" remote="chas" revision="13" clone-depth="1"/>-->
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="derp-13" clone-depth="1"/>
@@ -27,7 +28,7 @@
    
    <!-- Hardware -->
    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="builds" revision="lineage-20" clone-depth="1"/>
-   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="builds" revision="lineage-20" clone-depth="1"/>
+   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hub" revision="lineage-20" clone-depth="1"/>
 
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
