@@ -7,14 +7,12 @@
    <remote name="chas" fetch="https://github.com/CodeChas3r1"/>
    <remote name="builds" fetch="https://github.com/chasbuilds"/>
 
-   <!-- DerpFest -->
-   <!--<remove-project name="packages_apps_Settings" />
-   <remove-project name="frameworks_base" />
-   <project path="packages/apps/Settings" name="derp_packages_apps_Settings" remote="chas" revision="13" clone-depth="1"/>
-   <project path="frameworks/base" name="derp_frameworks_base" remote="chas" revision="13" clone-depth="1"/>-->
+   <!-- ProjectBlaze -->
+   <remove-project name="projectblaze/hardware_xiaomi" />
+   <remove-project name="projectblaze/device_mediatek_sepolicy_vndr" />
 
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="derp-13" clone-depth="1"/>
+   <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="13" clone-depth="1"/>
    <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="builds" revision="lineage-20" clone-depth="1"/>
    <project path="vendor/xiaomi/rosemary" name="android_vendor_xiaomi_rosemary" remote="builds" revision="lineage-20" clone-depth="1"/>
    
