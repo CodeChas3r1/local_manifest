@@ -8,10 +8,10 @@
    <remote name="builds" fetch="https://github.com/chasbuilds"/>
    
    <!-- risingOS -->
-   <!--<remove-project name="RisingTechOSS/android_packages_apps_Launcher3"/>
-   <remove-project name="android_packages_modules_wifi"/>
+   <remove-project name="android_packages_apps_Launcher3"/>
+   <remove-project name="android_packages_modules_Wifi"/>
    <project path="packages/apps/Launcher3" name="rising_packages_apps_Launcher3" remote="chas" revision="thirteen" clone-depth="1"/>
-   <project path="packages/modules/wifi" name="android_packages_modules_wifi" remote="chas" revision="thirteen" clone-depth="1"/>-->
+   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="chas" revision="thirteen" clone-depth="1"/>-->
    
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="13-vanilla" clone-depth="1"/>
