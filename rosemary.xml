@@ -9,7 +9,7 @@
 
    <!-- ProjectBlaze -->
    <remove-project name="hardware_xiaomi" />
-   <remove-project name="projectblaze/device_mediatek_sepolicy_vndr" />
+   <remove-project name="device_mediatek_sepolicy_vndr" />
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="13" clone-depth="1"/>
