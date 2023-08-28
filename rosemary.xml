@@ -24,7 +24,7 @@
    <project path="device/mediatek/common" name="android_device_mediatek_common" remote="builds" revision="thirteen" clone-depth="1"/>
    
    <!-- SePolicy -->
-   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="builds" revision="13" clone-depth="1"/>
+   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="builds" revision="lineage-20" clone-depth="1"/>
    
    <!-- Hardware -->
    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="builds" revision="lineage-20" clone-depth="1"/>
