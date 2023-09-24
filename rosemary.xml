@@ -19,7 +19,7 @@
    <project path="device/mediatek/common" name="android_device_mediatek_common" remote="builds" revision="thirteen" clone-depth="1"/>
    
    <!-- SePolicy -->
-   <project path="device/mediatek/sepolicy_vndr" name="PixelBuilds-Staging/device_mediatek_sepolicy_vndr" remote="hub" revision="pb_alpha" clone-depth="1"/>
+   <project path="device/mediatek/sepolicy_vndr" name="PixelBuilds-Staging/android_device_mediatek_sepolicy_vndr" remote="hub" revision="pb_alpha" clone-depth="1"/>
    
    <!-- Hardware -->
    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="hub" revision="lineage-20" clone-depth="1"/>
