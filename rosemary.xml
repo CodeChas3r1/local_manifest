@@ -10,9 +10,7 @@
    <!-- AlphaDroid -->
    <remove-project name="lineageos/android_hardware_xiaomi" />
    <remove-project name="packages_apps_Launcher3" />
-   <remove-project name="packages_apps_Settings" />
    <project path="packages/apps/Launcher3" name="alpha_packages_apps_Launcher3" remote="chas" revision="alpha-13" clone-depth="1"/>
-   <project path="packages/apps/Settings" name="alpha_packages_apps_Settings" remote="chas" revision="alpha-13" clone-depth="1"/>
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="alpha-13" clone-depth="1"/>
