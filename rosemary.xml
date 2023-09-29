@@ -8,7 +8,7 @@
    <remote name="builds" fetch="https://github.com/chasbuilds"/>
 
    <!-- Remove project ArrowOS -->
-   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
+   <remove-project name="android_device_mediatek_sepolicy_vndr" />
    <remove-project name="ArrowOS/android_hardware_mediatek" />
 
    <!-- Trees -->
