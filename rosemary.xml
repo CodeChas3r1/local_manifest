@@ -9,7 +9,7 @@
 
    <!-- Remove project ArrowOS -->
    <remove-project name="android_device_mediatek_sepolicy_vndr" />
-   <remove-project name="ArrowOS/android_hardware_mediatek" />
+   <remove-project name="android_hardware_mediatek" />
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="arrow-13" clone-depth="1"/>
