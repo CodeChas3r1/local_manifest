@@ -7,16 +7,12 @@
    <remote name="chas" fetch="https://github.com/CodeChas3r1"/>
    <remote name="builds" fetch="https://github.com/chasbuilds"/>
 
-   <!-- Remove & Add my repo crDroidAndroid patch -->
-   <!--<remove-project name="crdroidandroid/android_frameworks_base" />-->
-   <!--<remove-project name="crdroidandroid/android_packages_apps_Launcher3" />-->
-   <!--<remove-project name="crdroidandroid/android_packages_apps_Settings" />-->
-   <!--<project path="frameworks/base" name="android_frameworks_base" remote="chas" revision="13.0" clone-depth="1"/>-->
-   <!--<project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="chas" revision="13.0" clone-depth="1"/>-->
-   <!--<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="chas" revision="13.0" clone-depth="1"/>-->
+   <!-- Remove project ArrowOS -->
+   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
+   <remove-project name="ArrowOS/android_hardware_mediatek" />
 
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="13.0" clone-depth="1"/>
+   <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="arrow-13" clone-depth="1"/>
    <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="builds" revision="lineage-20" clone-depth="1"/>
    <project path="vendor/xiaomi/rosemary" name="android_vendor_xiaomi_rosemary" remote="builds" revision="lineage-20" clone-depth="1"/>
    
