@@ -10,12 +10,6 @@
    <!-- ArrowOS -->
    <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
    
-   <!-- PixelOS-AOSP -->
-   <remove-project name="frameworks_base" />
-   <remove-project name="packages_apps_Settings" />
-   <project path="frameworks/base" name="pixelos_frameworks_base" remote="chas" revision="thirteen" clone-depth="1"/>
-   <project path="packages/apps/Settings" name="pixelos_packages_apps_Settings" remote="chas" revision="thirteen" clone-depth="1"/>
-   
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="thirteen" clone-depth="1"/>
    <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="builds" revision="lineage-20" clone-depth="1"/>
@@ -30,7 +24,7 @@
    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="builds" revision="lineage-20" clone-depth="1"/>
    
    <!-- Hardware -->
-   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="builds" revision="lineage-20" clone-depth="1"/>
+   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="hub" revision="lineage-20" clone-depth="1"/>
    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hub" revision="lineage-20" clone-depth="1"/>
    
    <!-- Clang -->
