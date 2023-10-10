@@ -9,8 +9,8 @@
 
    <!-- AlphaDroid -->
    <remove-project name="lineageos/android_hardware_xiaomi" />
-   <remove-project name="packages_apps_Launcher3" />
-   <project path="packages/apps/Launcher3" name="alpha_packages_apps_Launcher3" remote="chas" revision="alpha-13" clone-depth="1"/>
+   <!--<remove-project name="packages_apps_Launcher3" />
+   <project path="packages/apps/Launcher3" name="alpha_packages_apps_Launcher3" remote="chas" revision="alpha-13" clone-depth="1"/>-->
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="alpha-13" clone-depth="1"/>
@@ -26,7 +26,7 @@
    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="builds" revision="lineage-20" clone-depth="1"/>
    
    <!-- Hardware -->
-   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="builds" revision="lineage-20" clone-depth="1"/>
+   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="hubs" revision="lineage-20" clone-depth="1"/>
    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hub" revision="lineage-20" clone-depth="1"/>
    
    <!-- Clang -->
