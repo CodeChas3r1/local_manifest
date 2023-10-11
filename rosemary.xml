@@ -7,10 +7,9 @@
    <remote name="chas" fetch="https://github.com/CodeChas3r1"/>
    <remote name="builds" fetch="https://github.com/chasbuilds"/>
 
-   <!-- AlphaDroid -->
+   <!-- AlphaDroid and addons -->
    <remove-project name="lineageos/android_hardware_xiaomi" />
-   <!--<remove-project name="packages_apps_Launcher3" />
-   <project path="packages/apps/Launcher3" name="alpha_packages_apps_Launcher3" remote="chas" revision="alpha-13" clone-depth="1"/>-->
+   <project path="vendor/gcgop" name="ProjectKasumi/vendor_gcgop" remote="hub" revision="kasumi-v2" clone-depth="1"/>
 
    <!-- Trees -->
    <project path="device/xiaomi/rosemary" name="android_device_xiaomi_rosemary" remote="builds" revision="alpha-13" clone-depth="1"/>
