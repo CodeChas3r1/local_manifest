@@ -25,7 +25,7 @@
    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="builds" revision="lineage-20" clone-depth="1"/>
    
    <!-- Hardware -->
-   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="hubs" revision="lineage-20" clone-depth="1"/>
+   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="hub" revision="lineage-20" clone-depth="1"/>
    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hub" revision="lineage-20" clone-depth="1"/>
    
    <!-- Clang -->
