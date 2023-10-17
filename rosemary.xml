@@ -6,11 +6,12 @@
    <remote name="hub" fetch="https://github.com"/>
    <remote name="chas" fetch="https://github.com/CodeChas3r1"/>
    <remote name="builds" fetch="https://github.com/chasbuilds"/>
+   <remote name="lab" fetch="https://gitlab.com"/>
    
    <!-- Trees -->
    <project path="device/redmi/rosemary" name="android_device_redmi_rosemary" remote="chas" revision="derp-13" clone-depth="1"/>
-   <project path="kernel/redmi/rosemary" name="PixelBuilds-Devices/android_kernel_redmi_rosemary" remote="hub" revision="pb_alpha" clone-depth="1"/>
-   <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary" remote="blobs" revision="pb_alpha" clone-depth="1"/>
+   <project path="kernel/redmi/rosemary" name="android_kernel_redmi_rosemary" remote="chas" revision="derp-13" clone-depth="1"/>
+   <project path="vendor/redmi/rosemary" name="android_vendor_redmi_rosemary" remote="chas" revision="derp-13" clone-depth="1"/>
    <project path="vendor/redmi/rosemary-firmware" name="android_vendor_redmi_rosemary-firmware" remote="blobs" revision="pb_alpha" clone-depth="1"/>
    
    <!-- Extras -->
@@ -19,13 +20,13 @@
    <project path="device/mediatek/common" name="android_device_mediatek_common" remote="builds" revision="thirteen" clone-depth="1"/>
    
    <!-- SePolicy -->
-   <project path="device/mediatek/sepolicy_vndr" name="PixelBuilds-Staging/android_device_mediatek_sepolicy_vndr" remote="hub" revision="pb_alpha" clone-depth="1"/>
+   <project path="device/mediatek/sepolicy_vndr" name="PixelExperience/android_device_mediatek_sepolicy_vndr" remote="hub" revision="thirteen" clone-depth="1"/>
    
    <!-- Hardware -->
    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="hub" revision="lineage-20" clone-depth="1"/>
    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hub" revision="lineage-20" clone-depth="1"/>
    
    <!-- Clang -->
-   <!--<project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="LineageOS/prebuilts_clang_kernel_linux-x86_clang-r416183b" remote="hub" revision="lineage-20.0" clone-depth="1"/>-->
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
 
 </manifest>
